@@ -1,0 +1,136 @@
+:root{
+    --primary:#020d45;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color:#020d45;
+   background:linear-gradient(90deg,#5936b4 0%,#362a84 100%);
+   color: #222;
+   font-size: 1 rem;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+
+.temperature-converter{
+    background-color: #fff;
+    width: 100%;
+    min-width: 320px;
+    padding: 20px 25px 45px;
+    border-radius: 5px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow:-5px -5px 250px 0 rgba(255,255,255,0.02)inset ;
+    backdrop-filter: blur(21px);
+}
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-bottom:40px ;
+    font-size: 18px;
+    align-items: center;
+}
+
+.title{
+    color: #222;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.result{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.result-heading{
+    color: #555;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.celsius-value{
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    transition: all .45s ease;
+}
+
+.degree-type{
+    display: flex;
+   justify-content: space-between;
+  align-items: center;
+  padding: 10PX 0;
+}
+
+.degree-field{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+label{
+    color:var(--primary);
+    font-size: .8rem;
+    margin-bottom: 5px;
+}
+input,select{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding:8px;
+    margin-bottom: 15px;
+}
+
+input:focus{
+    border: 1px solid #4c49f3;
+}
+
+option{
+    background: #3c39e7;
+    color: #f6f6f6;
+}
+
+#convert-btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: var(--ternary);
+    color:var(--pure);
+    padding: 12px 80px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    transition: all .3s ease-in;
+    text-transform: uppercase;
+}
+
+#convert-btn:hover{
+    background:var(--primary) ;
+    transition:all .3s ease;
+    -o-transition:all .3s;
+    -moz-transition:all .3s ;
+    -webkit-transition:all .3s ;
+    -ms-transition:all .3s ;
+}
+
+.fa{
+    margin-left: -12px;
+    margin-right:8px ;
+}
