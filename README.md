@@ -1,6 +1,6 @@
 # Temp_Chameleon - Instant Temperature Conversion
 
-Temp_Chameleon is a lightweight and efficient temperature conversion tool developed using CSS, HTML, and JavaScript. With this project, you can easily convert temperatures between Celsius and Fahrenheit scales, making it an ideal choice for quick and accurate temperature conversions.
+Temp_Chameleon is a lightweight and efficient temperature conversion tool developed using CSS, HTML, and JavaScript. With this project, you can easily convert temperatures between Celsius and Fahrenheit or Kelvin scales, making it an ideal choice for quick and accurate temperature conversions.
 
 ## Features
 
@@ -16,7 +16,7 @@ Temp_Chameleon is a lightweight and efficient temperature conversion tool develo
 
 2. Input the temperature value in the text field.
 
-3. Toggle between Celsius and Fahrenheit using the provided switch.
+3. Toggle between Celsius and Fahrenheit,Kelvin using the provided switch.
 
 4. The converted temperature will be displayed instantly below the input field.
 
